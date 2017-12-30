@@ -26,6 +26,5 @@ defmodule Discuss.Router do
     get "/signout", AuthController, :signout
     get "/:provider", AuthController, :request
     get "/:provider/callback", AuthController, :callback
-
   end
 end
